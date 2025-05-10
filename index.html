@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>母親節快樂</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+        
+        body {
+            font-family: 'biaukai', sans-serif;
+            background-color: #fff5f7;
+            overflow-x: hidden;
+        }
+        
+        .cursive {
+            font-family: 'biaukai', cursive;
+        }
+        
+        .flower {
+            animation: sway 6s infinite ease-in-out;
+        }
+        
+        @keyframes sway {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(5deg); }
+        }
+        
+        .heart {
+            animation: beat 1.5s infinite ease-in-out;
+        }
+        
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .floating {
+            animation: float 6s infinite ease-in-out;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        .card {
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+</head>
+<body>
+    <!-- 頂部裝飾 -->
+    <div class="w-full h-8 bg-gradient-to-r from-pink-300 via-pink-400 to-pink-300"></div>
+    
+    <!-- 主要內容 -->
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- 標題區 -->
+        <div class="text-center mb-12">
+            <h1 class="cursive text-5xl md:text-7xl text-pink-600 mb-4">母親節快樂</h1>
+            <p class="text-xl md:text-2xl text-pink-500">獻給最美麗的林媽媽</p>
+            
+            <div class="mt-6 relative">
+                <svg class="heart w-16 h-16 mx-auto text-pink-500" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- 花朵裝飾 -->
+        <div class="absolute top-20 left-4 hidden md:block">
+            <svg class="flower w-24 h-24 text-pink-400 opacity-70" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,2C13.1,2 14,2.9 14,4C14,5.1 13.1,6 12,6C10.9,6 10,5.1 10,4C10,2.9 10.9,2 12,2M15.89,8.7C15.96,8.89 16,9.09 16,9.3C16,10.4 15.1,11.3 14,11.3C13.65,11.3 13.31,11.21 13.03,11.04C12.77,11.21 12.47,11.3 12.15,11.3C11.83,11.3 11.53,11.21 11.27,11.04C10.99,11.21 10.65,11.3 10.3,11.3C9.2,11.3 8.3,10.4 8.3,9.3C8.3,9.09 8.34,8.89 8.4,8.7C7.82,8.3 7.45,7.67 7.45,6.95C7.45,5.85 8.35,4.95 9.45,4.95C9.66,4.95 9.86,4.99 10.05,5.05C10.45,4.47 11.08,4.1 11.8,4.1C12.5,4.1 13.15,4.47 13.55,5.05C13.74,4.99 13.94,4.95 14.15,4.95C15.25,4.95 16.15,5.85 16.15,6.95C16.15,7.67 15.78,8.3 15.2,8.7M18.69,10.5C18.8,10.7 18.85,10.9 18.85,11.1C18.85,12.2 17.95,13.1 16.85,13.1C16.5,13.1 16.16,13 15.88,12.84C15.62,13 15.32,13.1 15,13.1C14.68,13.1 14.38,13 14.12,12.84C13.84,13 13.5,13.1 13.15,13.1C12.8,13.1 12.46,13 12.18,12.84C11.92,13 11.62,13.1 11.3,13.1C10.98,13.1 10.68,13 10.42,12.84C10.14,13 9.8,13.1 9.45,13.1C8.35,13.1 7.45,12.2 7.45,11.1C7.45,10.9 7.5,10.7 7.61,10.5C7.03,10.1 6.65,9.47 6.65,8.75C6.65,7.65 7.55,6.75 8.65,6.75C8.86,6.75 9.06,6.79 9.25,6.85C9.65,6.27 10.28,5.9 11,5.9C11.7,5.9 12.35,6.27 12.75,6.85C12.94,6.79 13.14,6.75 13.35,6.75C13.56,6.75 13.76,6.79 13.95,6.85C14.35,6.27 14.98,5.9 15.7,5.9C16.42,5.9 17.05,6.27 17.45,6.85C17.64,6.79 17.84,6.75 18.05,6.75C19.15,6.75 20.05,7.65 20.05,8.75C20.05,9.47 19.67,10.1 19.09,10.5M20.45,13.5C20.56,13.7 20.61,13.9 20.61,14.1C20.61,15.2 19.71,16.1 18.61,16.1C18.26,16.1 17.92,16 17.64,15.84C17.38,16 17.08,16.1 16.76,16.1C16.44,16.1 16.14,16 15.88,15.84C15.6,16 15.26,16.1 14.91,16.1C14.56,16.1 14.22,16 13.94,15.84C13.68,16 13.38,16.1 13.06,16.1C12.74,16.1 12.44,16 12.18,15.84C11.9,16 11.56,16.1 11.21,16.1C10.86,16.1 10.52,16 10.24,15.84C9.98,16 9.68,16.1 9.36,16.1C9.04,16.1 8.74,16 8.48,15.84C8.2,16 7.86,16.1 7.51,16.1C6.41,16.1 5.51,15.2 5.51,14.1C5.51,13.9 5.56,13.7 5.67,13.5C5.09,13.1 4.71,12.47 4.71,11.75C4.71,10.65 5.61,9.75 6.71,9.75C6.92,9.75 7.12,9.79 7.31,9.85C7.71,9.27 8.34,8.9 9.06,8.9C9.76,8.9 10.41,9.27 10.81,9.85C11,9.79 11.2,9.75 11.41,9.75C11.62,9.75 11.82,9.79 12.01,9.85C12.41,9.27 13.04,8.9 13.76,8.9C14.46,8.9 15.11,9.27 15.51,9.85C15.7,9.79 15.9,9.75 16.11,9.75C16.32,9.75 16.52,9.79 16.71,9.85C17.11,9.27 17.74,8.9 18.46,8.9C19.18,8.9 19.81,9.27 20.21,9.85C20.4,9.79 20.6,9.75 20.81,9.75C21.91,9.75 22.81,10.65 22.81,11.75C22.81,12.47 22.43,13.1 21.85,13.5M12,17.95C10.9,17.95 10,17.05 10,15.95C10,14.85 10.9,13.95 12,13.95C13.1,13.95 14,14.85 14,15.95C14,17.05 13.1,17.95 12,17.95Z"/>
+            </svg>
+        </div>
+        
+        <div class="absolute top-40 right-4 hidden md:block">
+            <svg class="flower w-20 h-20 text-pink-300 opacity-70" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12,2C13.1,2 14,2.9 14,4C14,5.1 13.1,6 12,6C10.9,6 10,5.1 10,4C10,2.9 10.9,2 12,2M15.89,8.7C15.96,8.89 16,9.09 16,9.3C16,10.4 15.1,11.3 14,11.3C13.65,11.3 13.31,11.21 13.03,11.04C12.77,11.21 12.47,11.3 12.15,11.3C11.83,11.3 11.53,11.21 11.27,11.04C10.99,11.21 10.65,11.3 10.3,11.3C9.2,11.3 8.3,10.4 8.3,9.3C8.3,9.09 8.34,8.89 8.4,8.7C7.82,8.3 7.45,7.67 7.45,6.95C7.45,5.85 8.35,4.95 9.45,4.95C9.66,4.95 9.86,4.99 10.05,5.05C10.45,4.47 11.08,4.1 11.8,4.1C12.5,4.1 13.15,4.47 13.55,5.05C13.74,4.99 13.94,4.95 14.15,4.95C15.25,4.95 16.15,5.85 16.15,6.95C16.15,7.67 15.78,8.3 15.2,8.7M18.69,10.5C18.8,10.7 18.85,10.9 18.85,11.1C18.85,12.2 17.95,13.1 16.85,13.1C16.5,13.1 16.16,13 15.88,12.84C15.62,13 15.32,13.1 15,13.1C14.68,13.1 14.38,13 14.12,12.84C13.84,13 13.5,13.1 13.15,13.1C12.8,13.1 12.46,13 12.18,12.84C11.92,13 11.62,13.1 11.3,13.1C10.98,13.1 10.68,13 10.42,12.84C10.14,13 9.8,13.1 9.45,13.1C8.35,13.1 7.45,12.2 7.45,11.1C7.45,10.9 7.5,10.7 7.61,10.5C7.03,10.1 6.65,9.47 6.65,8.75C6.65,7.65 7.55,6.75 8.65,6.75C8.86,6.75 9.06,6.79 9.25,6.85C9.65,6.27 10.28,5.9 11,5.9C11.7,5.9 12.35,6.27 12.75,6.85C12.94,6.79 13.14,6.75 13.35,6.75C13.56,6.75 13.76,6.79 13.95,6.85C14.35,6.27 14.98,5.9 15.7,5.9C16.42,5.9 17.05,6.27 17.45,6.85C17.64,6.79 17.84,6.75 18.05,6.75C19.15,6.75 20.05,7.65 20.05,8.75C20.05,9.47 19.67,10.1 19.09,10.5M20.45,13.5C20.56,13.7 20.61,13.9 20.61,14.1C20.61,15.2 19.71,16.1 18.61,16.1C18.26,16.1 17.92,16 17.64,15.84C17.38,16 17.08,16.1 16.76,16.1C16.44,16.1 16.14,16 15.88,15.84C15.6,16 15.26,16.1 14.91,16.1C14.56,16.1 14.22,16 13.94,15.84C13.68,16 13.38,16.1 13.06,16.1C12.74,16.1 12.44,16 12.18,15.84C11.9,16 11.56,16.1 11.21,16.1C10.86,16.1 10.52,16 10.24,15.84C9.98,16 9.68,16.1 9.36,16.1C9.04,16.1 8.74,16 8.48,15.84C8.2,16 7.86,16.1 7.51,16.1C6.41,16.1 5.51,15.2 5.51,14.1C5.51,13.9 5.56,13.7 5.67,13.5C5.09,13.1 4.71,12.47 4.71,11.75C4.71,10.65 5.61,9.75 6.71,9.75C6.92,9.75 7.12,9.79 7.31,9.85C7.71,9.27 8.34,8.9 9.06,8.9C9.76,8.9 10.41,9.27 10.81,9.85C11,9.79 11.2,9.75 11.41,9.75C11.62,9.75 11.82,9.79 12.01,9.85C12.41,9.27 13.04,8.9 13.76,8.9C14.46,8.9 15.11,9.27 15.51,9.85C15.7,9.79 15.9,9.75 16.11,9.75C16.32,9.75 16.52,9.79 16.71,9.85C17.11,9.27 17.74,8.9 18.46,8.9C19.18,8.9 19.81,9.27 20.21,9.85C20.4,9.79 20.6,9.75 20.81,9.75C21.91,9.75 22.81,10.65 22.81,11.75C22.81,12.47 22.43,13.1 21.85,13.5M12,17.95C10.9,17.95 10,17.05 10,15.95C10,14.85 10.9,13.95 12,13.95C13.1,13.95 14,14.85 14,15.95C14,17.05 13.1,17.95 12,17.95Z"/>
+            </svg>
+        </div>
+        
+        <!-- 主要內容區 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <!-- 左側：母親節圖像 -->
+            <div class="flex justify-center items-center">
+                <div class="relative w-full max-w-md">
+                    <svg class="w-full h-auto text-pink-500" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#fff" stroke="#FDB8C0" stroke-width="2"/>
+                        <g class="floating">
+                            <!-- 母親與孩子的簡單插圖 -->
+                            <path d="M35,65 Q50,55 65,65" stroke="#FF6B81" stroke-width="2" fill="none"/>
+                            <circle cx="40" cy="40" r="8" fill="#FF6B81"/>
+                            <circle cx="60" cy="40" r="6" fill="#FF6B81"/>
+                            <path d="M40,55 Q50,65 60,55" stroke="#FF6B81" stroke-width="2" fill="none"/>
+                            <text x="50" y="80" text-anchor="middle" font-size="6" fill="#FF6B81" font-family="'Ma Shan Zheng', cursive">母親節快樂</text>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- 右側：感謝詞 -->
+            <div class="flex flex-col justify-center">
+                <h2 class="text-3xl text-pink-600 mb-6 cursive">感謝媽媽的愛</h2>
+                <p class="text-lg mb-4 text-gray-700">親愛的媽媽，</p>
+                <p class="text-lg mb-4 text-gray-700">感謝你對我無私的愛與付出，第一次用網站做卡片給你，想在這特別的日子裡，獻上我誠摯的祝福與感謝。</p>
+                <p class="text-lg mb-6 text-gray-700">母親節快樂，每天都幸福！</p>
+                <div class="flex space-x-2">
+                    <span class="text-pink-500">❤️</span>
+                    <span class="text-pink-500">❤️</span>
+                    <span class="text-pink-500">❤️</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 卡片區域 -->
+        <h2 class="text-3xl text-center text-pink-600 mb-8 cursive">獻給媽媽的祝福</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <!-- 卡片1 -->
+            <div class="card bg-white rounded-lg shadow-lg overflow-hidden border border-pink-200">
+                <div class="p-6">
+                    <div class="text-4xl mb-4 text-center">🌸</div>
+                    <h3 class="text-xl text-pink-600 mb-2 text-center">無盡的愛</h3>
+                    <p class="text-gray-600">你的愛是世界上最無私、無可替代的情感，如同春天的陽光，溫暖我的心！</p>
+                </div>
+            </div>
+            
+            <!-- 卡片2 -->
+            <div class="card bg-white rounded-lg shadow-lg overflow-hidden border border-pink-200">
+                <div class="p-6">
+                    <div class="text-4xl mb-4 text-center">🥰</div>
+                    <h3 class="text-xl text-pink-600 mb-2 text-center">媽媽的力量</h3>
+                    <p class="text-gray-600">堅強與溫柔並存，你的經驗與人生教會我面對困難時的勇氣。</p>
+                </div>
+            </div>
+            
+            <!-- 卡片3 -->
+            <div class="card bg-white rounded-lg shadow-lg overflow-hidden border border-pink-200">
+                <div class="p-6">
+                    <div class="text-4xl mb-4 text-center">🎁</div>
+                    <h3 class="text-xl text-pink-600 mb-2 text-center">體貼的感謝</h3>
+                    <p class="text-gray-600">為了感謝媽媽，特地送你按摩券，記得預約去享受一下喔！</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 特別祝福區 -->
+        <div class="bg-white rounded-lg shadow-lg p-8 border border-pink-200 mb-16">
+            <h2 class="text-2xl text-pink-600 mb-6 text-center cursive">特別的祝福</h2>
+            <div class="text-center">
+                <p class="text-lg mb-6 text-gray-700">媽媽的愛、教導、關懷，塑造了今天的我。</p>
+                <p class="text-lg mb-6 text-gray-700">在這個特別的日子裡，我想告訴你，你永遠是我心中最美麗、最厲害的人。</p>
+                <p class="text-lg mb-6 text-gray-700">願你每一天都充滿笑容，健康快樂！</p>
+                <div class="flex justify-center space-x-4 mt-8">
+                    <span class="text-4xl">🌹</span>
+                    <span class="text-4xl">💝</span>
+                    <span class="text-4xl">🌹</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 照片回憶區 -->
+        <div class="mb-16">
+            <h2 class="text-3xl text-center text-pink-600 mb-8 cursive">美好回憶</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- 照片框1 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg border border-pink-200">
+                    <div class="bg-pink-100 h-48 rounded flex items-center justify-center">
+                        <img src="2.jpg">
+                            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p class="mt-3 text-center text-gray-600">小時候一起去圓照寺</p>
+                </div>
+                
+                <!-- 照片框2 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg border border-pink-200">
+                    <div class="bg-pink-100 h-48 rounded flex items-center justify-center">
+                        <img src="1.jpg">
+                            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p class="mt-3 text-center text-gray-600">去年聖誕節</p>
+                </div>
+                
+                <!-- 照片框3 -->
+                <div class="bg-white p-4 rounded-lg shadow-lg border border-pink-200">
+                    <div class="bg-pink-100 h-48 rounded flex items-center justify-center">
+                        <img src="3.jpg">
+                            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <p class="mt-3 text-center text-gray-600">兩位媽媽的笑容最美麗</p>
+                </div>
+            </div>
+            <p class="text-center mt-6 text-gray-500 italic">我們之後繼續創造回憶</p>
+        </div>
+        
+        <!-- 底部 -->
+        <footer class="text-center text-gray-600 py-6">
+            <p>❤️ 獻給我親愛的媽媽 ❤️</p>
+            <p class="mt-2">母親節快樂 | 2025</p>
+        </footer>
+    </div>
+    
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93daf5acf08eb307',t:'MTc0Njg5NjA3OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
